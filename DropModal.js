@@ -76,14 +76,14 @@ var animation = {
     })
 };
 
-var showAnimation = animation.show;
-var hideAnimation = animation.hide;
-var showModalAnimation = animation.showModalAnimation;
-var hideModalAnimation = animation.hideModalAnimation;
-var showBackdropAnimation = animation.showBackdropAnimation;
-var hideBackdropAnimation = animation.hideBackdropAnimation;
-var showContentAnimation = animation.showContentAnimation;
-var hideContentAnimation = animation.hideContentAnimation;
+const showAnimation = animation.show;
+const hideAnimation = animation.hide;
+const showModalAnimation = animation.showModalAnimation;
+const hideModalAnimation = animation.hideModalAnimation;
+const showBackdropAnimation = animation.showBackdropAnimation;
+const hideBackdropAnimation = animation.hideBackdropAnimation;
+const showContentAnimation = animation.showContentAnimation;
+const hideContentAnimation = animation.hideContentAnimation;
 
 module.exports = modalFactory({
     getRef: function(willHidden) {
